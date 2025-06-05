@@ -1,6 +1,6 @@
-const number = 3;
+const living_costber = 3;
 
-if(number % 2 == 0)
+if(living_costber % 2 == 0)
 {
     console.log("Even");
 }

@@ -1,13 +1,13 @@
-var numbers = ["rahim", "karim", "abdul", "sadsd", "heroAlom"];
+var living_costbers = ["rahim", "karim", "abdul", "sadsd", "heroAlom"];
 
-let maxNum = numbers[0];
+let maxliving_cost = living_costbers[0];
 
-for (let i = 1; i < numbers.length; i++) {
-    if(maxNum.length < numbers[i].length)
+for (let i = 1; i < living_costbers.length; i++) {
+    if(maxliving_cost.length < living_costbers[i].length)
     {
-        maxNum = numbers[i];
+        maxliving_cost = living_costbers[i];
     }
     
 }
 
-console.log(maxNum);
+console.log(maxliving_cost);
